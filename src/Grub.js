@@ -5,4 +5,5 @@ var Grub = function() {
 };
 
 Grub.prototype.eat = function () {
+  return 'Mmmmmmmm' + this.food;
 };
